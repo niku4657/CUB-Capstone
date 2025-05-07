@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.22.2)
+project( RowDetection )
+find_package( OpenCV REQUIRED )
+include_directories( /usr/local/include/opencv4/ )
+add_executable( RowDetection row_detection.cpp ImageProc.cpp RowDetection.cpp)
+target_link_libraries( RowDetection /usr/local/lib/libopencv_highgui.so /usr/local/lib/libopencv_videoio.so /usr/local/lib/libopencv_imgcodecs.so /usr/local/lib/libopencv_imgproc.so /usr/local/lib/libopencv_core.so) 
