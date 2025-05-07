@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>row_detection</name>
+  <version>0.0.1</version>
+  <description>Trimble Autonomous CSCI 2021-2022 Row Detection</description>
+  <maintainer email="Cody.Weaver@colorado.edu">Cody Weaver</maintainer>
+  <maintainer email="Lara.Chunko@colorado.edu">Lara Chunko</maintainer>	
+  <maintainer email="David.Crokett@colorado.edu">David Crokett</maintainer>
+  <maintainer email="Alex.Mazur@colorado.edu">Alex Mazur</maintainer>
+  <maintainer email="Niharika.Kunapuli@colorado.edu">Neha Kunapuli</maintainer>
+  <maintainer email="Kaylee.Engelhardt@colorado.edu">Kaylee Engelhardt</maintainer>
+  <maintainer email="Ege.Telatar@colorado.edu">Ege Telatar</maintainer>
+  <license>TODO: License declaration</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <depend>sensor_msgs</depend>
+  <depend>cv_bridge</depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
